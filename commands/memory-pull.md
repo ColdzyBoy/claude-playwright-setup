@@ -17,7 +17,7 @@ set -e
 CONFIG_DIR="$HOME/.claude-memory-sync"
 CONFIG_FILE="$CONFIG_DIR/config.json"
 CACHE_DIR="$CONFIG_DIR/cache"
-DEFAULT_REMOTE="https://gitlab.superstart.co.kr/labiter/labiter-testing-memory.git"
+DEFAULT_REMOTE="ssh://git@gitlab.superstart.co.kr:13022/labiter/labiter-testing-memory.git"
 DEFAULT_BRANCH="main"
 
 mkdir -p "$CONFIG_DIR"

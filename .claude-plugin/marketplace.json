@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Sync Claude Code auto-memory across machines via a private GitLab repository",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   "plugins": [
     {

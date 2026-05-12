@@ -16,8 +16,10 @@ The plugin itself ships **only four slash commands**. The memory data lives in a
 ## Remote repo
 
 ```
-https://gitlab.superstart.co.kr/labiter/labiter-testing-memory.git
+ssh://git@gitlab.superstart.co.kr:13022/labiter/labiter-testing-memory.git
 ```
+
+> SSH access requires your machine's public key to be registered with GitLab. If you only have HTTPS access, override `remote` in `~/.claude-memory-sync/config.json` to the HTTPS URL.
 
 ## Slash commands
 
@@ -74,7 +76,7 @@ Because the slug differs per machine, only fill in the `projects` map when the d
 
 ```json
 {
-  "remote": "https://gitlab.superstart.co.kr/labiter/labiter-testing-memory.git",
+  "remote": "ssh://git@gitlab.superstart.co.kr:13022/labiter/labiter-testing-memory.git",
   "branch": "main",
   "sync_global": true,
   "projects": {
@@ -91,7 +93,7 @@ See [`examples/config.example.json`](examples/config.example.json) for a fuller 
 
 ```bash
 # After creating an empty repo on GitLab:
-git clone https://gitlab.superstart.co.kr/labiter/labiter-testing-memory.git
+git clone ssh://git@gitlab.superstart.co.kr:13022/labiter/labiter-testing-memory.git
 cd labiter-testing-memory
 mkdir -p projects global
 echo "# labiter memory" > README.md

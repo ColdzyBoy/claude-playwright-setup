@@ -1,5 +1,5 @@
 {
-  "remote": "https://gitlab.superstart.co.kr/labiter/labiter-testing-memory.git",
+  "remote": "ssh://git@gitlab.superstart.co.kr:13022/labiter/labiter-testing-memory.git",
   "branch": "main",
   "sync_global": true,
   "projects": {
