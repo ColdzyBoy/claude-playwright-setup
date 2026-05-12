@@ -1,0 +1,10 @@
+{
+  "remote": "https://gitlab.superstart.co.kr/labiter/labiter-testing-memory.git",
+  "branch": "main",
+  "sync_global": true,
+  "projects": {
+    "-Users-labiter-projects-playwright-run-test": "playwright-run-test",
+    "-Users-labiter-projects-playwright-hub": "playwright-hub",
+    "-Users-jaewon-code-playwright-run-test": "playwright-run-test"
+  }
+}

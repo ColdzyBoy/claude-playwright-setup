@@ -1,0 +1,22 @@
+{
+  "name": "labiter-memory-sync",
+  "description": "Sync Claude Code auto-memory with a private GitLab repository for cross-machine memory portability. Provides /memory-pull, /memory-push, /memory-sync, /memory-status commands.",
+  "version": "0.1.0",
+  "author": {
+    "name": "labiter"
+  },
+  "commands": [
+    "./commands/memory-pull.md",
+    "./commands/memory-push.md",
+    "./commands/memory-sync.md",
+    "./commands/memory-status.md"
+  ],
+  "keywords": [
+    "memory",
+    "sync",
+    "git",
+    "gitlab",
+    "auto-memory",
+    "cross-machine"
+  ]
+}

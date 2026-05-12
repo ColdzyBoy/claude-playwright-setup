@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "labiter-memory-sync",
+  "owner": {
+    "name": "labiter"
+  },
+  "metadata": {
+    "description": "Sync Claude Code auto-memory across machines via a private GitLab repository",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "labiter-memory-sync",
+      "source": "./",
+      "description": "Sync Claude Code auto-memory with a private GitLab repository. Provides /memory-pull, /memory-push, /memory-sync, /memory-status slash commands.",
+      "category": "productivity",
+      "tags": ["memory", "sync", "git", "gitlab", "claude-memory"]
+    }
+  ]
+}
